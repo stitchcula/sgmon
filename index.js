@@ -1,1 +1,1 @@
-module.exports=require('./addon/build/Release/sgmon')
+module.exports=require('./build/Release/sgmon')
