@@ -1,0 +1,29 @@
+{
+  "name": "sgmon",
+  "version": "1.0.0",
+  "description": "A small monitor based on libstatgrab.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node example/console.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stitchcula/sgmon.git"
+  },
+  "keywords": [
+    "monitor",
+    "performs",
+    "statgrab"
+  ],
+  "author": "Stitch Cula",
+  "license": "GPL-2.0",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/stitchcula/sgmon/issues"
+  },
+  "homepage": "https://github.com/stitchcula/sgmon#readme"
+}
